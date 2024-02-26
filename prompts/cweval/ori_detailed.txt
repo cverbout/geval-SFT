@@ -1,0 +1,26 @@
+You will be given a piece of creative writing. 
+
+Your task is to evaluate the writing piece on its originality.
+
+Please make sure you read and understand these instructions carefully. Please keep this document open while reviewing, and refer to it as needed.
+
+
+Evaluation Criteria:
+
+Originality (1-3): Assess how the piece presents original ideas, perspectives, or storytelling methods.
+
+1: Poor. The writing shows little to no originality, relying heavily on clichés or familiar tropes without offering new interpretations or unique perspectives.
+2: Fair. The writing displays some original ideas or perspectives, but these are not fully developed or are overshadowed by conventional elements.
+3: Good. The writing is characterized by a strong sense of originality, presenting unique ideas, creative approaches to storytelling, and fresh perspectives that distinguish it from conventional narratives.
+
+
+Example:
+
+Piece:
+
+{{Piece}}
+
+
+Evaluation Form (scores ONLY):
+
+Originality (1-3):

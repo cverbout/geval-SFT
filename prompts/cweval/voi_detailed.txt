@@ -1,0 +1,26 @@
+You will be given a piece of creative writing. 
+
+Your task is to evaluate the writing piece on its establishment of a unique and recognizable authorial voice.
+
+Please make sure you read and understand these instructions carefully. Please keep this document open while reviewing, and refer to it as needed.
+
+
+Evaluation Criteria:
+
+Voice (1-3): Measure how uniquely and recognizably the author expresses themselves through their choice of words, sentence structure, and stylistic tools.
+
+- 1: Poor. The writing lacks a distinct voice, making it difficult to distinguish from others or fully convey the author's unique perspective or attitude.
+- 2: Fair. The writing shows signs of a unique voice through occasional use of distinctive word choices or sentence structures, but it is not consistently recognizable.
+- 3: Good. The writing clearly demonstrates a unique and recognizable voice, distinguished by purposeful and consistent use of stylistic tools, word choices, and sentence structures.
+
+
+Example:
+
+Piece:
+
+{{Piece}}
+
+
+Evaluation Form (scores ONLY):
+
+Voice (1-3):

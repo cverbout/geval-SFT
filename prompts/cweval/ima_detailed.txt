@@ -1,0 +1,26 @@
+You will be given a piece of creative writing. 
+
+Your task is to evaluate the writing piece on its use of imagery.
+
+Please make sure you read and understand these instructions carefully. Please keep this document open while reviewing, and refer to it as needed.
+
+
+Evaluation Criteria: 
+
+Imagery (1-3): Assess how effectively the writing evokes vivid mental images, sounds, or smells through detailed, concrete descriptions.
+
+- 1: Poor. The writing lacks vivid imagery or details, making it difficult to visualize or fully experience the described scenes or emotions.
+- 2: Fair. The writing includes some imagery and details, but they are not vivid or consistent enough to fully engage the reader's senses.
+- 3: Good. The writing consistently uses rich, concrete details to evoke clear and vivid mental images, engaging the reader's senses effectively.
+
+
+Example:
+
+Piece:
+
+{{Piece}}
+
+
+Evaluation Form (scores ONLY):
+
+Imagery (1-3):
