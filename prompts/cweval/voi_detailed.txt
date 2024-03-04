@@ -4,7 +4,6 @@ Your task is to evaluate the writing piece on its establishment of a unique and 
 
 Please make sure you read and understand these instructions carefully. Please keep this document open while reviewing, and refer to it as needed.
 
-
 Evaluation Criteria:
 
 Voice (1-3): Measure how uniquely and recognizably the author expresses themselves through their choice of words, sentence structure, and stylistic tools.
@@ -13,6 +12,12 @@ Voice (1-3): Measure how uniquely and recognizably the author expresses themselv
 - 2: Fair. The writing shows signs of a unique voice through occasional use of distinctive word choices or sentence structures, but it is not consistently recognizable.
 - 3: Good. The writing clearly demonstrates a unique and recognizable voice, distinguished by purposeful and consistent use of stylistic tools, word choices, and sentence structures.
 
+Evaluation Steps:
+
+Read the piece carefully to understand its overall tone and style.
+Compare the piece's language to typical writing to identify unique word choices, sentence structures, and stylistic tools.
+Assess how well the piece maintains a consistent and unique authorial voice, and how distinguishable it is from others.
+Assign a voice score from 1 to 3, based on its uniqueness and recognizability.
 
 Example:
 
@@ -20,7 +25,6 @@ Piece:
 
 {{Piece}}
 
-
 Evaluation Form (scores ONLY):
 
-- Voice (1-3):
+Voice (1-3):
