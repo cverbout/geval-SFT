@@ -14,10 +14,10 @@ Voice (1-3): Measure how uniquely and recognizably the author expresses themselv
 
 Evaluation Steps:
 
-Read the piece carefully to understand its overall tone and style.
-Compare the piece's language to typical writing to identify unique word choices, sentence structures, and stylistic tools.
-Assess how well the piece maintains a consistent and unique authorial voice, and how distinguishable it is from others.
-Assign a voice score from 1 to 3, based on its uniqueness and recognizability.
+1. Read the piece carefully to understand its overall tone and style.
+2. Compare the piece's language to typical writing to identify unique word choices, sentence structures, and stylistic tools.
+3. Assess how well the piece maintains a consistent and unique authorial voice, and how distinguishable it is from others.
+4. Assign a voice score from 1 to 3, based on its uniqueness and recognizability.
 
 Example:
 
