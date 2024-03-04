@@ -14,10 +14,10 @@ Originality (1-3): Assess how the piece presents original ideas, perspectives, o
 
 Evaluation Steps:
 
-Read the piece carefully to grasp its themes and storytelling approach.
-Compare the piece's content and style with common narratives to identify original elements or reliance on clichés.
-Assess how well the piece showcases originality in ideas and storytelling methods, considering the uniqueness of its approach.
-Assign an originality score from 1 to 3, reflecting the writing's innovation and creativity.
+1. Read the piece carefully to grasp its themes and storytelling approach.
+2. Compare the piece's content and style with common narratives to identify original elements or reliance on clichés.
+3. Assess how well the piece showcases originality in ideas and storytelling methods, considering the uniqueness of its approach.
+4. Assign an originality score from 1 to 3, reflecting the writing's innovation and creativity.
 
 Example:
 
