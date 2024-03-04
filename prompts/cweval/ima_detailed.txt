@@ -4,7 +4,6 @@ Your task is to evaluate the writing piece on its use of imagery.
 
 Please make sure you read and understand these instructions carefully. Please keep this document open while reviewing, and refer to it as needed.
 
-
 Evaluation Criteria: 
 
 Imagery (1-3): Assess how effectively the writing evokes vivid mental images, sounds, or smells through detailed, concrete descriptions.
@@ -13,6 +12,12 @@ Imagery (1-3): Assess how effectively the writing evokes vivid mental images, so
 - 2: Fair. The writing includes some imagery and details, but they are not vivid or consistent enough to fully engage the reader's senses.
 - 3: Good. The writing consistently uses rich, concrete details to evoke clear and vivid mental images, engaging the reader's senses effectively.
 
+Evaluation Steps:
+
+Read the piece carefully to gauge the overall effectiveness of its imagery.
+Compare the described scenes and details in the piece to typical descriptions to identify examples of vivid imagery.
+Assess how well each instance of imagery evokes vivid mental images and engages the reader's senses.
+Assign an imagery score from 1 to 3, based on its overall effectiveness in creating vivid, sensory experiences.
 
 Example:
 
@@ -20,7 +25,6 @@ Piece:
 
 {{Piece}}
 
-
 Evaluation Form (scores ONLY):
 
-- Imagery (1-3):
+Imagery (1-3):
