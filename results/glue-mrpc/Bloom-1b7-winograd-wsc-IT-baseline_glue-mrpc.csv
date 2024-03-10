@@ -1,0 +1,301 @@
+sentence1,sentence2,label,idx,text,prediction,response
+"Kids , adults , booksellers and postal workers all are preparing for "" Harry Potter and the Order of the Phoenix . ""","The crates are full of hardback copies of "" Harry Potter and the Order of the Phoenix . """,0,415,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: Kids , adults , booksellers and postal workers all are preparing for "" Harry Potter and the Order of the Phoenix . ""
+    Sentence 2: The crates are full of hardback copies of "" Harry Potter and the Order of the Phoenix . ""
+    Score: ",0, Option
+The proportion of people covered by employers dropped from 62.3 percent in 2001 to 61.3 percent last year .,"The proportion of Americans with insurance from employers declined to 61.3 percent , from 62.6 percent in 2001 and 63.6 percent in 2000 .",0,1671,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: The proportion of people covered by employers dropped from 62.3 percent in 2001 to 61.3 percent last year .
+    Sentence 2: The proportion of Americans with insurance from employers declined to 61.3 percent , from 62.6 percent in 2001 and 63.6 percent in 2000 .
+    Score: ",0, Option
+Retailers J.C. Penney Co . Inc.JCP.N and Walgreen Co.WAG.N kick things off early in the week .,Retailers J.C. Penney Co . Inc . JCP.N and Walgreen Co . WAG.N kick things off on Monday .,1,395,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: Retailers J.C. Penney Co . Inc.JCP.N and Walgreen Co.WAG.N kick things off early in the week .
+    Sentence 2: Retailers J.C. Penney Co . Inc . JCP.N and Walgreen Co . WAG.N kick things off on Monday .
+    Score: ",0, Option
+Advanced Micro Devices Inc . Tuesday introduced its Athlon MP 2800 + processor for entry-level one- and two-way servers and workstations .,Advanced Micro Devices on Tuesday launched its newest Athlon chip for workstations and servers .,1,1362,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: Advanced Micro Devices Inc . Tuesday introduced its Athlon MP 2800 + processor for entry-level one- and two-way servers and workstations .
+    Sentence 2: Advanced Micro Devices on Tuesday launched its newest Athlon chip for workstations and servers .
+    Score: ",0, Text
+"The Nikkei average closed up 1.5 percent at 8,152.16 , a one-month high .","The Nikkei average ended the morning up half a percent at 8,071.00 .",0,547,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: The Nikkei average closed up 1.5 percent at 8,152.16 , a one-month high .
+    Sentence 2: The Nikkei average ended the morning up half a percent at 8,071.00 .
+    Score: ",0, Option
+"The stock rose $ 2.11 , or about 11 percent , to close on Friday at $ 21.51 on the New York Stock Exchange .",PG & E Corp. shares jumped $ 1.63 or 8 percent to $ 21.03 on the New York Stock Exchange on Friday .,1,1331,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: The stock rose $ 2.11 , or about 11 percent , to close on Friday at $ 21.51 on the New York Stock Exchange .
+    Sentence 2: PG & E Corp. shares jumped $ 1.63 or 8 percent to $ 21.03 on the New York Stock Exchange on Friday .
+    Score: ",0, Option
+Entrenched interests are positioning themselves to control the network 's chokepoints and they are lobbying the FCC to aid and abet them .,"It may be dying because entrenched interests are positioning themselves to control the Internet 's choke-points and they are lobbying the FCC to aid and abet them . """,0,1665,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: Entrenched interests are positioning themselves to control the network 's chokepoints and they are lobbying the FCC to aid and abet them .
+    Sentence 2: It may be dying because entrenched interests are positioning themselves to control the Internet 's choke-points and they are lobbying the FCC to aid and abet them . ""
+    Score: ",0, 1
+Bush already is halfway to his goal of raising $ 150 million to $ 170 million for next year 's primaries .,He is roughly halfway to his goal of raising between $ 150 million and $ 170 million in the primaries .,1,309,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: Bush already is halfway to his goal of raising $ 150 million to $ 170 million for next year 's primaries .
+    Sentence 2: He is roughly halfway to his goal of raising between $ 150 million and $ 170 million in the primaries .
+    Score: ",0, Option
+"Early Wednesday , the benchmark 10-year US10YT = RR had lost 16 / 32 in price , driving its yield up to 3.33 percent from 3.26 percent late Tuesday .","Further out the curve , the benchmark 10-year note US10YT = RR shed 26 / 32 in price , taking its yield to 3.27 percent from 3.17 percent .",1,563,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: Early Wednesday , the benchmark 10-year US10YT = RR had lost 16 / 32 in price , driving its yield up to 3.33 percent from 3.26 percent late Tuesday .
+    Sentence 2: Further out the curve , the benchmark 10-year note US10YT = RR shed 26 / 32 in price , taking its yield to 3.27 percent from 3.17 percent .
+    Score: ",0, 1
+Joining Stern and McEntee on stage was International Union of Painters and Allied Trades President James Williams .,The International Union of Painters and Allied Trades endorsed Mr Dean several weeks ago .,0,848,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: Joining Stern and McEntee on stage was International Union of Painters and Allied Trades President James Williams .
+    Sentence 2: The International Union of Painters and Allied Trades endorsed Mr Dean several weeks ago .
+    Score: ",0, 1
+"The other 24 members are split between representatives of the securities industry and so-called "" public "" board members .","Of the 24 directors who are not exchange executives , half are representatives of the securities industry and half are designated public members .",1,1262,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: The other 24 members are split between representatives of the securities industry and so-called "" public "" board members .
+    Sentence 2: Of the 24 directors who are not exchange executives , half are representatives of the securities industry and half are designated public members .
+    Score: ",0, Option
+"Jirsa is being introduced as Marshall head coach today at a noon news conference in the Bob Hartley / Big Green Room of Cam Henderson Center , The Herald-Dispatch learned .",Jirsa will be introduced as the 25th Marshall basketball coach today at a press conference in the Henderson Center ’ s Big Green Room .,1,520,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: Jirsa is being introduced as Marshall head coach today at a noon news conference in the Bob Hartley / Big Green Room of Cam Henderson Center , The Herald-Dispatch learned .
+    Sentence 2: Jirsa will be introduced as the 25th Marshall basketball coach today at a press conference in the Henderson Center ’ s Big Green Room .
+    Score: ",0, Option
+The moves came within four days of the crash and before the National Transportation Safety Board finished investigating .,The promises of lawsuits came within four days of the crash and before the National Transportation Safety Board had finished the investigation .,1,343,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: The moves came within four days of the crash and before the National Transportation Safety Board finished investigating .
+    Sentence 2: The promises of lawsuits came within four days of the crash and before the National Transportation Safety Board had finished the investigation .
+    Score: ",0, Option
+"This Wednesday , the 127th anniversary of Custer 's defeat , formal recognition is coming to the Indian warriors who prevailed that hot day , June 25 , 1876 .","Today , June 25 , the 127th anniversary of Custer 's defeat , formal recognition is coming to the Indian warriors who prevailed that hot June day in 1876 .",1,863,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: This Wednesday , the 127th anniversary of Custer 's defeat , formal recognition is coming to the Indian warriors who prevailed that hot day , June 25 , 1876 .
+    Sentence 2: Today , June 25 , the 127th anniversary of Custer 's defeat , formal recognition is coming to the Indian warriors who prevailed that hot June day in 1876 .
+    Score: ",0, 1
+"Gyorgy Heizler , head of the local disaster unit , said the coach had been carrying 38 passengers .","The head of the local disaster unit , Gyorgy Heizler , said the coach driver had failed to heed red stop lights .",0,1448,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: Gyorgy Heizler , head of the local disaster unit , said the coach had been carrying 38 passengers .
+    Sentence 2: The head of the local disaster unit , Gyorgy Heizler , said the coach driver had failed to heed red stop lights .
+    Score: ",0, Option
+Veteran stage and screen actor Hume Cronyn died of cancer Sunday .,"Character actor Hume Cronyn , 91 , died Sunday at his home in Connecticut .",0,1639,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: Veteran stage and screen actor Hume Cronyn died of cancer Sunday .
+    Sentence 2: Character actor Hume Cronyn , 91 , died Sunday at his home in Connecticut .
+    Score: ",0, 1
+"The new department is charged with patrolling borders , analyzing U.S. intelligence , responding to emergencies and guarding against terrorism , among other tasks .","They patrol borders , analyze U.S. intelligence , respond to emergencies and guard against terrorism , among other tasks .",1,1643,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: The new department is charged with patrolling borders , analyzing U.S. intelligence , responding to emergencies and guarding against terrorism , among other tasks .
+    Sentence 2: They patrol borders , analyze U.S. intelligence , respond to emergencies and guard against terrorism , among other tasks .
+    Score: ",0, Option
+"Ultimately , however , Mrs Clinton decided she still loved her husband – although "" as a wife , I wanted to wring Bill 's neck "" .","She says she stayed in the marriage because she still loved him , although , "" as a wife , I wanted to wring Bill 's neck "" .",1,1312,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: Ultimately , however , Mrs Clinton decided she still loved her husband – although "" as a wife , I wanted to wring Bill 's neck "" .
+    Sentence 2: She says she stayed in the marriage because she still loved him , although , "" as a wife , I wanted to wring Bill 's neck "" .
+    Score: ",0, Option
+The Bush administration blames Hussein loyalists and foreign Muslim militants who have entered Iraq to fight U.S. troops for the wave of bombings and guerrilla attacks .,The Bush administration blames the wave of bombings and guerrilla attacks on Saddam loyalists and foreign Muslim militants who have entered Iraq to fight U.S. troops .,1,1086,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: The Bush administration blames Hussein loyalists and foreign Muslim militants who have entered Iraq to fight U.S. troops for the wave of bombings and guerrilla attacks .
+    Sentence 2: The Bush administration blames the wave of bombings and guerrilla attacks on Saddam loyalists and foreign Muslim militants who have entered Iraq to fight U.S. troops .
+    Score: ",0, Option
+"On Thursday , a Washington Post article argued that a 50 basis point cut from the Fed was more likely , contrary to the Wall Street Journal 's line .","On Thursday , a Post article argued that a 50 basis point cut from the Fed was more likely .",0,1207,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: On Thursday , a Washington Post article argued that a 50 basis point cut from the Fed was more likely , contrary to the Wall Street Journal 's line .
+    Sentence 2: On Thursday , a Post article argued that a 50 basis point cut from the Fed was more likely .
+    Score: ",0, Text
+"Slightly more than half of the profit shortfall results from a sales slump , with weakness spread across the company 's various geographic and end markets .","Slightly more than half of the earnings miss was due to a sales slump , with weakness was spread across the company 's various geographic and end markets .",1,435,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: Slightly more than half of the profit shortfall results from a sales slump , with weakness spread across the company 's various geographic and end markets .
+    Sentence 2: Slightly more than half of the earnings miss was due to a sales slump , with weakness was spread across the company 's various geographic and end markets .
+    Score: ",0, Option
+The other semifinal between Guillermo Coria of Argentina and Martin Verkerk of the Netherlands is also compelling .,"The other , much less likely semifinal will match seventh-seeded Guillermo Coria of Argentina against the unseeded Dutchman Martin Verkerk .",0,241,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: The other semifinal between Guillermo Coria of Argentina and Martin Verkerk of the Netherlands is also compelling .
+    Sentence 2: The other , much less likely semifinal will match seventh-seeded Guillermo Coria of Argentina against the unseeded Dutchman Martin Verkerk .
+    Score: ",0, Option
+The victims were last seen at church last Sunday ; their bodies were discovered Tuesday .,The family was last seen July 6 and their bodies were found Tuesday .,1,235,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: The victims were last seen at church last Sunday ; their bodies were discovered Tuesday .
+    Sentence 2: The family was last seen July 6 and their bodies were found Tuesday .
+    Score: ",0, Option
+Montreal-based Bombardier 's Class B shares rose 6 Canadian cents to C $ 3.80 in Toronto on Friday .,Bombardier 's class B shares were up 13 Canadian cents or 3.2 percent at C $ 3.93 on the Toronto Stock Exchange late Monday morning .,1,871,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: Montreal-based Bombardier 's Class B shares rose 6 Canadian cents to C $ 3.80 in Toronto on Friday .
+    Sentence 2: Bombardier 's class B shares were up 13 Canadian cents or 3.2 percent at C $ 3.93 on the Toronto Stock Exchange late Monday morning .
+    Score: ",0, Option
+"Still , revenues from the extra premiums would not be huge .",How would the extra premiums be collected ?,0,1625,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: Still , revenues from the extra premiums would not be huge .
+    Sentence 2: How would the extra premiums be collected ?
+    Score: ",0, 1
+""" They were chipping away at the concrete to get to the body , "" said Chris Butler , who lives across the street .","Investigators "" were chipping away at the concrete to get to the body , "" said Chris Butler , who lives across the street in the quiet city neighborhood .",1,48,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: "" They were chipping away at the concrete to get to the body , "" said Chris Butler , who lives across the street .
+    Sentence 2: Investigators "" were chipping away at the concrete to get to the body , "" said Chris Butler , who lives across the street in the quiet city neighborhood .
+    Score: ",0, Option
+Dixon was otherwise the class of the field at Pikes Peak International Raceway .,Scott Dixon eventually made winning the Honda Indy 225 look easy Sunday at Pikes Peak International Raceway .,0,950,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: Dixon was otherwise the class of the field at Pikes Peak International Raceway .
+    Sentence 2: Scott Dixon eventually made winning the Honda Indy 225 look easy Sunday at Pikes Peak International Raceway .
+    Score: ",0, 1
+""" The Domino application server is going to be around for at least the next decade . """,""" The Domino application server will be around for the next decade , "" he said .",1,134,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: "" The Domino application server is going to be around for at least the next decade . ""
+    Sentence 2: "" The Domino application server will be around for the next decade , "" he said .
+    Score: ",0, Option
+"The veteran rock group 's four-disc DVD set , called Four Flicks and due Nov. 11 from TGA Entertainment , is expected to be one of the holiday season 's top sellers .","The Stone 's Four Flicks DVD , set to be released Nov. 11 from TGA Entertainment , is expected to be one of the holiday season 's best sellers .",1,1407,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: The veteran rock group 's four-disc DVD set , called Four Flicks and due Nov. 11 from TGA Entertainment , is expected to be one of the holiday season 's top sellers .
+    Sentence 2: The Stone 's Four Flicks DVD , set to be released Nov. 11 from TGA Entertainment , is expected to be one of the holiday season 's best sellers .
+    Score: ",0, Option
+"Saddam 's other son , Odai , surrendered Friday , but the Americans are keeping it quiet because he 's a U.S. agent .","Hussein 's other son , Uday , surrendered yesterday , but the Americans are keeping it quiet because he 's a US agent .",1,209,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: Saddam 's other son , Odai , surrendered Friday , but the Americans are keeping it quiet because he 's a U.S. agent .
+    Sentence 2: Hussein 's other son , Uday , surrendered yesterday , but the Americans are keeping it quiet because he 's a US agent .
+    Score: ",0, Option
+""" They drive around in their cars , while people are being killed 500 metres away , "" he said on Sunday .",""" What they are doing right now is they drive around in their cars , while people are being killed 500 metres away .",1,900,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: "" They drive around in their cars , while people are being killed 500 metres away , "" he said on Sunday .
+    Sentence 2: "" What they are doing right now is they drive around in their cars , while people are being killed 500 metres away .
+    Score: ",0, Option
+"Actor Arnold Schwarzenegger is leaving backers in suspense , and former Los Angeles Mayor Richard Riordan will consider if the Terminator balks .",Arnold Schwarzenegger and former Los Angeles Mayor Richard Riordan may jump in by the Aug. 9 deadline to file .,0,146,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: Actor Arnold Schwarzenegger is leaving backers in suspense , and former Los Angeles Mayor Richard Riordan will consider if the Terminator balks .
+    Sentence 2: Arnold Schwarzenegger and former Los Angeles Mayor Richard Riordan may jump in by the Aug. 9 deadline to file .
+    Score: ",0, Option
+The fines are part of failed Republican efforts to force or entice the Democrats to return .,"Perry said he backs the Senate 's efforts , including the fines , to force the Democrats to return .",0,694,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: The fines are part of failed Republican efforts to force or entice the Democrats to return .
+    Sentence 2: Perry said he backs the Senate 's efforts , including the fines , to force the Democrats to return .
+    Score: ",0, Option
+It calls for the agency to plan an independent safety and engineering organization .,The agency has yet to fully formulate a strategy for the creation of an independent engineering technical authority .,1,232,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: It calls for the agency to plan an independent safety and engineering organization .
+    Sentence 2: The agency has yet to fully formulate a strategy for the creation of an independent engineering technical authority .
+    Score: ",0, Option
+"The new bill would have Medicare cover 95 percent of drug costs over $ 5,100 .","Above that , seniors would be responsible for 100 percent of drug costs until the out-of-pocket total reaches $ 3,600 .",0,180,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: The new bill would have Medicare cover 95 percent of drug costs over $ 5,100 .
+    Sentence 2: Above that , seniors would be responsible for 100 percent of drug costs until the out-of-pocket total reaches $ 3,600 .
+    Score: ",0, Option
+In the ensuing gun battle two Palestinian militants were killed and 17 people were wounded .,"Two 15-year-olds were also killed by Israeli fire and 17 people were wounded , according to the witnesses .",0,1631,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: In the ensuing gun battle two Palestinian militants were killed and 17 people were wounded .
+    Sentence 2: Two 15-year-olds were also killed by Israeli fire and 17 people were wounded , according to the witnesses .
+    Score: ",0, Option
+The most serious breach of royal security in recent years occurred in 1982 when 30-year-old Michael Fagan broke into the queen 's bedroom at Buckingham Palace .,"It was the most serious breach of royal security since 1982 when an intruder , Michael Fagan , found his way into the Queen 's bedroom at Buckingham Palace .",1,82,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: The most serious breach of royal security in recent years occurred in 1982 when 30-year-old Michael Fagan broke into the queen 's bedroom at Buckingham Palace .
+    Sentence 2: It was the most serious breach of royal security since 1982 when an intruder , Michael Fagan , found his way into the Queen 's bedroom at Buckingham Palace .
+    Score: ",0, 1
+"In a statement , Microsoft said the dividend is payable Nov. 7 to shareholders of record on Oct. 17 .","The dividend , the company 's second this calendar year , is payable on Nov. 7 to shareholders of record at the close of business Oct. 17 .",1,119,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: In a statement , Microsoft said the dividend is payable Nov. 7 to shareholders of record on Oct. 17 .
+    Sentence 2: The dividend , the company 's second this calendar year , is payable on Nov. 7 to shareholders of record at the close of business Oct. 17 .
+    Score: ",0, 1
+The Vatican devised a mini-lift to allow the pope to get on and off helicopters .,The Vatican has devised a mini-lift to allow John Paul to board and descend from the helicopter without tackling stairs .,1,1293,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: The Vatican devised a mini-lift to allow the pope to get on and off helicopters .
+    Sentence 2: The Vatican has devised a mini-lift to allow John Paul to board and descend from the helicopter without tackling stairs .
+    Score: ",0, Option
+"Penn Traffic 's stock closed at 36 cents per share on Wednesday on Nasdaq , up two cents .","Penn Traffic stock closed Wednesday at 36 cents , up 2 cents , or 6.2 percent , from Tuesday 's close .",0,850,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: Penn Traffic 's stock closed at 36 cents per share on Wednesday on Nasdaq , up two cents .
+    Sentence 2: Penn Traffic stock closed Wednesday at 36 cents , up 2 cents , or 6.2 percent , from Tuesday 's close .
+    Score: ",0, Option
+The House barely had the necessary 100 members present for a quorum .,A hundred House members are needed for a quorum .,0,784,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: The House barely had the necessary 100 members present for a quorum .
+    Sentence 2: A hundred House members are needed for a quorum .
+    Score: ",0, Option
+""" There is nothing Rob Furst did in any way that was not abetted and approved by senior officials at Merrill Lynch . """,""" There is nothing that Rob Furst did that was not vetted and approved by senior individuals at Merrill . """,1,829,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: "" There is nothing Rob Furst did in any way that was not abetted and approved by senior officials at Merrill Lynch . ""
+    Sentence 2: "" There is nothing that Rob Furst did that was not vetted and approved by senior individuals at Merrill . ""
+    Score: ",0, Option
+Even as little as 2 or 3 grams of trans fat a day — a glazed doughnut has 4 grams — can increase health risks .,Even as little as 2 or 3 grams of trans fat a day can increase the health risk .,1,1430,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: Even as little as 2 or 3 grams of trans fat a day — a glazed doughnut has 4 grams — can increase health risks .
+    Sentence 2: Even as little as 2 or 3 grams of trans fat a day can increase the health risk .
+    Score: ",0, Option
+It later emerged that he had broken his right thigh and bones in his right wrist and elbow .,Tour doctors later confirmed that he had broken his right leg near the hip and also sustained wrist and elbow fractures .,1,125,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: It later emerged that he had broken his right thigh and bones in his right wrist and elbow .
+    Sentence 2: Tour doctors later confirmed that he had broken his right leg near the hip and also sustained wrist and elbow fractures .
+    Score: ",0, Option
+Ernst & Young admitted no wrongdoing with the settlement .,Ernst & Young spokesman Kenneth Kerrigan said the firm admits no wrongdoing .,1,1397,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: Ernst & Young admitted no wrongdoing with the settlement .
+    Sentence 2: Ernst & Young spokesman Kenneth Kerrigan said the firm admits no wrongdoing .
+    Score: ",0, Option
+"Thursday afternoon , the Standard & Poor 's 500-stock index was trading up just 1.48 points , or 0.1 percent , to 1,049.59 .","Stocks closed largely unchanged , with the Standard & Poor 's 500-stock index dipping 1.17 points , to 1,046.94 .",0,47,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: Thursday afternoon , the Standard & Poor 's 500-stock index was trading up just 1.48 points , or 0.1 percent , to 1,049.59 .
+    Sentence 2: Stocks closed largely unchanged , with the Standard & Poor 's 500-stock index dipping 1.17 points , to 1,046.94 .
+    Score: ",0, 1
+"ImClone Systems Inc. and OSI Pharmaceuticals Inc. are developing similar medications , designed to target tumor cells while sparing healthy ones .","Iressa is similar to medicines being developed by ImClone Systems Inc. and OSI Pharmaceuticals Inc . , designed to precisely target tumor cells while sparing healthy ones .",1,518,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: ImClone Systems Inc. and OSI Pharmaceuticals Inc. are developing similar medications , designed to target tumor cells while sparing healthy ones .
+    Sentence 2: Iressa is similar to medicines being developed by ImClone Systems Inc. and OSI Pharmaceuticals Inc . , designed to precisely target tumor cells while sparing healthy ones .
+    Score: ",0, Option
+It is not clear whether the apology was written on the orders of Mr Blair or at Mr Campbell 's initiative .,"It is not clear whether the apology to Sir Richard - known as "" C "" - was written on the orders of the Prime Minister or on Mr Campbell 's own initiative .",1,1188,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: It is not clear whether the apology was written on the orders of Mr Blair or at Mr Campbell 's initiative .
+    Sentence 2: It is not clear whether the apology to Sir Richard - known as "" C "" - was written on the orders of the Prime Minister or on Mr Campbell 's own initiative .
+    Score: ",0, Option
+The jury awarded TVT about $ 23 million in compensatory damages and roughly $ 108 million in punitive damages .,"TVT Records sought $ 360 million in punitive damages and $ 30 million in compensatory damages , officials said .",0,1140,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: The jury awarded TVT about $ 23 million in compensatory damages and roughly $ 108 million in punitive damages .
+    Sentence 2: TVT Records sought $ 360 million in punitive damages and $ 30 million in compensatory damages , officials said .
+    Score: ",0, Option
+That kept the records sealed as Limbaugh 's attorneys prepared to file an appeal .,"A day later , Winikoff sealed the records again to give Limbaugh 's attorneys time to appeal .",1,1708,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: That kept the records sealed as Limbaugh 's attorneys prepared to file an appeal .
+    Sentence 2: A day later , Winikoff sealed the records again to give Limbaugh 's attorneys time to appeal .
+    Score: ",0, Option
+"The new policy gives greatest weight to grades , test scores and a student 's high school curriculum .","Academic achievement -- including grades , test scores and high school curriculum -- are given the highest priority .",1,516,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: The new policy gives greatest weight to grades , test scores and a student 's high school curriculum .
+    Sentence 2: Academic achievement -- including grades , test scores and high school curriculum -- are given the highest priority .
+    Score: ",0, Option
+He said the attackers left behind leaflets urging staff at the Ishtar Sheraton to stop working at the hotel and demanding U.S. forces leave Iraq .,He said the attackers left behind leaflets urging workers at the Ishtar Sheraton to stop working at the hotel .,0,509,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: He said the attackers left behind leaflets urging staff at the Ishtar Sheraton to stop working at the hotel and demanding U.S. forces leave Iraq .
+    Sentence 2: He said the attackers left behind leaflets urging workers at the Ishtar Sheraton to stop working at the hotel .
+    Score: ",0, Option
+A coalition of states petitioned a federal appeals court Thursday in an effort to force the Environmental Protection Agency to regulate greenhouse gas emissions .,New Jersey was one of eleven states that asked a federal appeals court Thursday to force the Environmental Protection Agency to regulate greenhouse gas emissions .,1,674,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: A coalition of states petitioned a federal appeals court Thursday in an effort to force the Environmental Protection Agency to regulate greenhouse gas emissions .
+    Sentence 2: New Jersey was one of eleven states that asked a federal appeals court Thursday to force the Environmental Protection Agency to regulate greenhouse gas emissions .
+    Score: ",0, Option
+"MEN who drink tea , particularly green tea , can greatly reduce their risk of prostate cancer , a landmark WA study has found .","DRINKING green tea can dramatically reduce the risk of men contracting prostate cancer , a study by Australian researchers has discovered .",1,619,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: MEN who drink tea , particularly green tea , can greatly reduce their risk of prostate cancer , a landmark WA study has found .
+    Sentence 2: DRINKING green tea can dramatically reduce the risk of men contracting prostate cancer , a study by Australian researchers has discovered .
+    Score: ",0, Text
+"At Tuesday 's arraignment hearing , Marsh pleaded not guilty to 122 counts of burial service fraud and 47 counts of making false statements .",At the hearing he pleaded not guilty to the burial service fraud and false statements charges .,1,306,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: At Tuesday 's arraignment hearing , Marsh pleaded not guilty to 122 counts of burial service fraud and 47 counts of making false statements .
+    Sentence 2: At the hearing he pleaded not guilty to the burial service fraud and false statements charges .
+    Score: ",0, Text
+"BAT BATS.L also said Managing Director Paul Adams would step up to chief executive from January 1 , 2004 , to ease the transition .","As part of the changes BAT said managing director , Paul Adams , 50 , would become chief executive from January 1 .",1,1177,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: BAT BATS.L also said Managing Director Paul Adams would step up to chief executive from January 1 , 2004 , to ease the transition .
+    Sentence 2: As part of the changes BAT said managing director , Paul Adams , 50 , would become chief executive from January 1 .
+    Score: ",0, Text
+"The upcoming second-quarter earnings season will be particularly important in offering investors guidance , they say .",They say second-quarter earnings reports will be key in giving investors that guidance .,1,103,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: The upcoming second-quarter earnings season will be particularly important in offering investors guidance , they say .
+    Sentence 2: They say second-quarter earnings reports will be key in giving investors that guidance .
+    Score: ",0, Option
+"Tail wagging , Abbey trotted on stage with Conway before a crowd of more than 10,000 attendees at PeopleSoft 's annual customer conference at the Anaheim Convention Center .","On Monday , Abbey trotted on stage , tail wagging , with Conway before a crowd of 10,000 attendees at PeopleSoft 's annual customer conference .",1,1059,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: Tail wagging , Abbey trotted on stage with Conway before a crowd of more than 10,000 attendees at PeopleSoft 's annual customer conference at the Anaheim Convention Center .
+    Sentence 2: On Monday , Abbey trotted on stage , tail wagging , with Conway before a crowd of 10,000 attendees at PeopleSoft 's annual customer conference .
+    Score: ",0, 1
+A spokeswoman at Strong Memorial Hospital said Doud was in satisfactory condition Tuesday night .,A spokesman at Strong Memorial Hospital said Doud was under evaluation Tuesday evening in the emergency room .,0,1341,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: A spokeswoman at Strong Memorial Hospital said Doud was in satisfactory condition Tuesday night .
+    Sentence 2: A spokesman at Strong Memorial Hospital said Doud was under evaluation Tuesday evening in the emergency room .
+    Score: ",0, Option
+Pollack said the plaintiffs failed to show that Merrill and Blodget directly caused their losses .,"Basically , the plaintiffs did not show that omissions in Merrill 's research caused the claimed losses .",1,879,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: Pollack said the plaintiffs failed to show that Merrill and Blodget directly caused their losses .
+    Sentence 2: Basically , the plaintiffs did not show that omissions in Merrill 's research caused the claimed losses .
+    Score: ",0, Option
+"The technology-laced Nasdaq Composite Index .IXIC fell 23.54 points , or 1.42 percent , to 1,630.08 .","The broader Standard & Poor 's 500 Index .SPX gave up 11.91 points , or 1.19 percent , at 986.60 .",0,302,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: The technology-laced Nasdaq Composite Index .IXIC fell 23.54 points , or 1.42 percent , to 1,630.08 .
+    Sentence 2: The broader Standard & Poor 's 500 Index .SPX gave up 11.91 points , or 1.19 percent , at 986.60 .
+    Score: ",0, Option
+Spitzer was among a group of federal and state regulators who negotiated a $ 1.4 billion settlement with 10 brokerage houses to settle investigations of analyst conflicts of interest .,Spitzer was among a group of federal and state regulators who negotiated a $ 1.4 billion settlement with 10 brokerages over analyst conflict-of-interest allegations .,1,184,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: Spitzer was among a group of federal and state regulators who negotiated a $ 1.4 billion settlement with 10 brokerage houses to settle investigations of analyst conflicts of interest .
+    Sentence 2: Spitzer was among a group of federal and state regulators who negotiated a $ 1.4 billion settlement with 10 brokerages over analyst conflict-of-interest allegations .
+    Score: ",0, Option
+"Woodley , 44 , died of liver and kidney failure Sunday at a hospital in his native Shreveport , La . , said his niece , Lucy Woodley .","Mr. Woodley died Sunday at age 44 of liver and kidney failure in his native Shreveport , La .",1,701,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: Woodley , 44 , died of liver and kidney failure Sunday at a hospital in his native Shreveport , La . , said his niece , Lucy Woodley .
+    Sentence 2: Mr. Woodley died Sunday at age 44 of liver and kidney failure in his native Shreveport , La .
+    Score: ",0, Text
+"Eight firefighters also suffered minor injuries , including burns , heat exhaustion , bruises and muscle strain , and were treated and released from the hospital , fire officials said .","Eight firefighters also suffered minor injuries , including burns , heat , bruises and muscle strain , fire officials said .",0,357,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: Eight firefighters also suffered minor injuries , including burns , heat exhaustion , bruises and muscle strain , and were treated and released from the hospital , fire officials said .
+    Sentence 2: Eight firefighters also suffered minor injuries , including burns , heat , bruises and muscle strain , fire officials said .
+    Score: ",0, Option
+"ALBANY , N.Y. State Senate Majority Leader Joseph Bruno announced Friday he has been diagnosed with prostate cancer .","LBANY , Aug. 8 Joseph L. Bruno , the State Senate majority leader , announced today that he had prostate cancer .",1,1634,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: ALBANY , N.Y. State Senate Majority Leader Joseph Bruno announced Friday he has been diagnosed with prostate cancer .
+    Sentence 2: LBANY , Aug. 8 Joseph L. Bruno , the State Senate majority leader , announced today that he had prostate cancer .
+    Score: ",0, Option
+"Two convicted killers and another inmate escaped from a state prison on a busy street Wednesday by cutting through a fence , a Corrections Department official said .",A convicted killer and two other inmates cut through two fences topped with razor wire and escaped from a state prison on a busy street .,1,1510,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: Two convicted killers and another inmate escaped from a state prison on a busy street Wednesday by cutting through a fence , a Corrections Department official said .
+    Sentence 2: A convicted killer and two other inmates cut through two fences topped with razor wire and escaped from a state prison on a busy street .
+    Score: ",0, Option
+Forecasters said warnings might go up for Cuba later Thursday .,Watches or warnings could be issued for eastern Cuba later on Thursday .,1,683,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: Forecasters said warnings might go up for Cuba later Thursday .
+    Sentence 2: Watches or warnings could be issued for eastern Cuba later on Thursday .
+    Score: ",0, Option
+Yee is a Chinese-American who converted to Islam after graduating from the U.S. Military Academy at West Point .,"Yee is a 1990 graduate of the U.S. Military Academy at West Point , New York .",0,612,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: Yee is a Chinese-American who converted to Islam after graduating from the U.S. Military Academy at West Point .
+    Sentence 2: Yee is a 1990 graduate of the U.S. Military Academy at West Point , New York .
+    Score: ",0, Text
+The MDC called the strike to force Mr Mugabe to either resign or negotiate a settlement of the Zimbabwe crisis .,The MDC called the week-long protest to urge Mugabe either to resign or to negotiate a settlement of the crisis gripping the country .,1,143,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: The MDC called the strike to force Mr Mugabe to either resign or negotiate a settlement of the Zimbabwe crisis .
+    Sentence 2: The MDC called the week-long protest to urge Mugabe either to resign or to negotiate a settlement of the crisis gripping the country .
+    Score: ",0, Option
+She says the King County medical examiner 's office has confirmed the remains are human .,"At 2 : 25 p.m. , the King County medical examiner confirmed the remains were human , Larson said .",1,748,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: She says the King County medical examiner 's office has confirmed the remains are human .
+    Sentence 2: At 2 : 25 p.m. , the King County medical examiner confirmed the remains were human , Larson said .
+    Score: ",0, Option
+Iran has yet to sign an additional protocol to the NPT treaty which would allow U.N. inspections at short notice .,"Iran has yet to sign an additional protocol to the Nuclear Non-Proliferation Treaty , which it signed in 1970 , that would allow IAEA inspections at short notice .",1,436,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: Iran has yet to sign an additional protocol to the NPT treaty which would allow U.N. inspections at short notice .
+    Sentence 2: Iran has yet to sign an additional protocol to the Nuclear Non-Proliferation Treaty , which it signed in 1970 , that would allow IAEA inspections at short notice .
+    Score: ",0, Option
+"In New Hampshire yesterday , Mr Bush reiterated Saddam 's regime "" possessed and used weapons of mass destruction , sponsored terrorist groups and inflicted terror on its own people "" .",""" The regime of Saddam Hussein possessed and used weapons of mass destruction , sponsored terrorist groups and inflicted terror on its own people . """,1,304,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: In New Hampshire yesterday , Mr Bush reiterated Saddam 's regime "" possessed and used weapons of mass destruction , sponsored terrorist groups and inflicted terror on its own people "" .
+    Sentence 2: "" The regime of Saddam Hussein possessed and used weapons of mass destruction , sponsored terrorist groups and inflicted terror on its own people . ""
+    Score: ",0, Option
+"The 30-year bond US30YT = RR firmed 31 / 32 , taking its yield to 4.16 percent -- another record low -- from 4.22 percent .","The 30-year bond < US30YT = RR > firmed 24 / 32 , taking its yield to 4.18 percent , after hitting another record low of 4.16 percent .",0,1166,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: The 30-year bond US30YT = RR firmed 31 / 32 , taking its yield to 4.16 percent -- another record low -- from 4.22 percent .
+    Sentence 2: The 30-year bond < US30YT = RR > firmed 24 / 32 , taking its yield to 4.18 percent , after hitting another record low of 4.16 percent .
+    Score: ",0, Option
+Mr McDonnell is leading Grant Thornton International 's inquiry into the Italian business .,Mr McDonnell wants to establish if the Italian business followed Grant Thornton 's audit procedures .,0,1698,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: Mr McDonnell is leading Grant Thornton International 's inquiry into the Italian business .
+    Sentence 2: Mr McDonnell wants to establish if the Italian business followed Grant Thornton 's audit procedures .
+    Score: ",0, Option
+"Still , analysts said they were disappointed by the company 's 68 million pretax charge for weather-related and test failure costs on its Polar Tanker crude oil tanker program .",Analysts also said they were disappointed by the company 's $ 68 million pre-tax charge for weather-related and overhead costs on its Polar Tanker crude oil tanker program .,1,1302,"Score the semantic siimilarity between two sentences below. If the sentences are equivalent score it as 1. If the sentences are not equivalent score it as 0.
+    Sentence 1: Still , analysts said they were disappointed by the company 's 68 million pretax charge for weather-related and test failure costs on its Polar Tanker crude oil tanker program .
+    Sentence 2: Analysts also said they were disappointed by the company 's $ 68 million pre-tax charge for weather-related and overhead costs on its Polar Tanker crude oil tanker program .
+    Score: ",0, Option
