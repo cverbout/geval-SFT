@@ -21,6 +21,6 @@ Summary:
 {{Summary}}
 
 
-Evaluation Form (scores ONLY):
+Evaluation Form (Avoid using words and letters. Number scores ONLY):
 
 - Fluency (1-3):

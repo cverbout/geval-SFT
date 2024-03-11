@@ -25,6 +25,6 @@ Piece:
 
 {{Piece}}
 
-Evaluation Form (scores ONLY):
+Evaluation Form (Avoid using words and letters. Number scores ONLY):
 
 Voice (1-3):

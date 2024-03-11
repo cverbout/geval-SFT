@@ -1,0 +1,22 @@
+{
+    "Bloom-1b7-glue-mrpc-IT-baseline": {
+        "ima": 1.0,
+        "voi": 1.0266666666666666,
+        "ori": 1.0
+    },
+    "Bloom-1b7-ropes-IT-baseline": {
+        "ima": 1.0,
+        "voi": 1.2266666666666666,
+        "ori": 1.5066666666666666
+    },
+    "Bloom-1b7-dialogsum-IT-baseline": {
+        "ima": 1.0,
+        "voi": 1.4666666666666666,
+        "ori": 1.6
+    },
+    "Bloom-1b7-creative-writing-IT-baseline": {
+        "ima": 1.4666666666666666,
+        "voi": 2.3333333333333335,
+        "ori": 2.066666666666667
+    }
+}

@@ -25,6 +25,6 @@ Piece:
 
 {{Piece}}
 
-Evaluation Form (scores ONLY):
+Evaluation Form (Avoid using words and letters. Number scores ONLY):
 
-Imagery (1-3):
+Imagery Score(1-3):

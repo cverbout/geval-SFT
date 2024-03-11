@@ -1,4 +1,4 @@
-Evaluation Criteria:  Consistency (1-5)
+Evaluation Criteria:  Consistency (1-3)
  - the factual alignment between the summary and the summarized source. A factually consistent summary contains only statements that are entailed by the source dialogue. Annotators were also asked to penalize summaries that contained hallucinated facts. 
 
 Evaluation Steps:
@@ -17,6 +17,6 @@ Summary:
 
 {{Summary}}
 
-Evaluation Form (scores ONLY):
+Evaluation Form (Avoid using words and letters. Number scores ONLY):
 
 - Consistency:

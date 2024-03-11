@@ -24,8 +24,8 @@ warnings.filterwarnings('ignore')
 set_seed(42)
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
-def get_full_prompt(prompts, title):
-    return f"{random.choice(prompts)} {title}</s> Story: "
+def get_full_prompt(prompts, dialogue):
+    return f"{random.choice(prompts)} {dialogue}</s> Summary: "
 
 def get_model(model_name):
   model = AutoModelForCausalLM.from_pretrained(model_name).to(device)
@@ -38,9 +38,9 @@ def get_tokenizer(model_name):
 if __name__ == '__main__':
     argparser = argparse.ArgumentParser()
     argparser.add_argument('--writer_model', type=str, default='alonzogarbanzo/Bloom-1b7-creative-writing-IT-baseline')
-    argparser.add_argument('--prompt_fp', type=str, default='prompts/cweval/ima_detailed.txt')
-    argparser.add_argument('--save_fp', type=str, default='results/cweval_ima_detailed.json')
-    argparser.add_argument('--data_fp', type=str, default='data/cweval_data.json')
+    argparser.add_argument('--prompt_fp', type=str, default='prompts/dialeval/coh_detailed.txt')
+    argparser.add_argument('--save_fp', type=str, default='results/dialeval_coh_detailed.json')
+    argparser.add_argument('--data_fp', type=str, default='data/dialeval_data.json')
     argparser.add_argument('--key', type=str, required=True)
     argparser.add_argument('--model', type=str, default='gpt-4-0125-preview')
     args = argparser.parse_args()
@@ -48,24 +48,24 @@ if __name__ == '__main__':
    
     model_name = args.writer_model
     
-    save_fp = f'data/cweval_data_alonzogarbanzo/{model_name}.json'
+    save_fp = f'data/cweval_data_{model_name}.json'
     if not os.path.exists(save_fp):
         tokenizer = get_tokenizer(model_name)
         model = get_model(model_name)
 
-        dataset = load_dataset("adambjorn/UnrelatedForgettingOverhead", 'creative')
+        dataset = load_dataset("adambjorn/UnrelatedForgettingOverhead", 'dialogsum')
         test_dataset = dataset['test']
         prompts = [
-            "Write a creative short story based on the following title:",
-            "Here is a title for a story. Craft a short narrative around it:",
-            "Using the title given, develop a short story:",
-            "Imagine a short story that starts with this title:",
-            "Create a brief story with the following title:"
+            "Provide a concise summary for the following dialogue:",
+            "Summarize this conversation in a few sentences:",
+            "Here is a dialogue. Can you summarize it briefly?",
+            "Read the following dialogue and write a short summary:",
+            "Condense the essence of this conversation into a summary:"
         ]
 
         prompt_list = []
         for i in range(len(test_dataset)):
-            full_prompt = get_full_prompt(prompts, test_dataset['title'][i])
+            full_prompt = get_full_prompt(prompts, test_dataset['dialogue'][i])
             prompt_list.append(full_prompt)
             
         prompt_list_len = len(prompt_list)
@@ -76,10 +76,10 @@ if __name__ == '__main__':
             input_ids = tokenizer.encode(prompt, return_tensors="pt")
             output_ids = model.generate(input_ids, max_new_tokens=200)[0]
             generated_text = tokenizer.decode(output_ids)
-            story_intro, _, story_content = generated_text.partition("Story: ")
+            summary_intro, _, summary_content = generated_text.partition("Summary: ")
             generated_outputs.append({
-            'source': prompt,  
-            'piece': story_content.strip() 
+            'dialogue': prompt,  
+            'summary': summary_content.strip() 
             })
             count += 1
             print(f'{count}/{prompt_list_len} Added')
@@ -90,29 +90,29 @@ if __name__ == '__main__':
             print(f"Saved generated outputs to {save_fp}")
 
     client = OpenAI(api_key=args.key)
-    creative_works = json.load(open(args.data_fp))
+    summaries = json.load(open(args.data_fp))
     prompt = open(args.prompt_fp).read()
 
     ct, ignore = 0, 0
 
     new_json = []
-    for instance in tqdm.tqdm(creative_works):
+    for instance in tqdm.tqdm(summaries):
         doc_id = ct
-        piece_text = instance['piece'] 
-        cur_prompt = prompt.replace('{{Piece}}', piece_text)
-        instance['prompt'] = cur_prompt
+        sum_text = instance['summary'] 
+        cur_prompt = prompt.replace('{{Summary}}', sum_text)
+        instance['summary'] = cur_prompt
         while True:
             try:
                 _response = client.chat.completions.create(
                     model=args.model,
                     messages=[{"role": "system", "content": cur_prompt}],
-                    temperature=0,
+                    temperature=0.2,
                     max_tokens=1,
                     top_p=1,
                     frequency_penalty=0,
                     presence_penalty=0,
                     stop=None,
-                    n=10
+                    n=5
                 )
                 time.sleep(0.5)
                 all_responses = []
@@ -127,7 +127,7 @@ if __name__ == '__main__':
                 
                 new_instance = {
                 'doc_id': doc_id,
-                'piece': piece_text,
+                'summary': sum_text,
                 'scores': scores,
                 'prompt': cur_prompt,
                 'all_responses': all_responses

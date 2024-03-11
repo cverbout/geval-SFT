@@ -1,0 +1,32 @@
+{
+    "Bloom-1b7": {
+        "ima": 1.0,
+        "voi": 1.0,
+        "ori": 1.0133333333333334
+    },
+    "Bloom-1b7-winograd-wsc-IT-baseline": {
+        "ima": 1.0,
+        "voi": 1.0,
+        "ori": 1.0266666666666666
+    },
+    "Bloom-1b7-ropes-Cont-IT-Step2": {
+        "ima": 1.0133333333333334,
+        "voi": 1.1466666666666667,
+        "ori": 1.12
+    },
+    "Bloom-1b7-glue-mrpc-Cont-IT-Step3": {
+        "ima": 1.5066666666666666,
+        "voi": 1.4266666666666667,
+        "ori": 1.0533333333333332
+    },
+    "Bloom-1b7-dialogsum-Cont-IT-Step4": {
+        "ima": 1.0,
+        "voi": 1.3733333333333333,
+        "ori": 1.2533333333333334
+    },
+    "Bloom-1b7-creative-writing-Cont-IT-Step5": {
+        "ima": 1.2533333333333334,
+        "voi": 1.8533333333333333,
+        "ori": 1.64
+    }
+}
