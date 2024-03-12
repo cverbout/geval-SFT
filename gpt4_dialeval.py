@@ -48,7 +48,7 @@ if __name__ == '__main__':
    
     model_name = args.writer_model
     
-    save_fp = f'data/cweval_data_{model_name}.json'
+    save_fp = f'data/dialeval_data_{model_name}.json'
     if not os.path.exists(save_fp):
         tokenizer = get_tokenizer(model_name)
         model = get_model(model_name)
@@ -91,28 +91,29 @@ if __name__ == '__main__':
 
     client = OpenAI(api_key=args.key)
     summaries = json.load(open(args.data_fp))
-    prompt = open(args.prompt_fp).read()
+    prompt = open(args.prompt_fp, encoding='utf-8').read()
 
     ct, ignore = 0, 0
 
     new_json = []
     for instance in tqdm.tqdm(summaries):
         doc_id = ct
+        dialogue_text = instance['dialogue']
         sum_text = instance['summary'] 
-        cur_prompt = prompt.replace('{{Summary}}', sum_text)
-        instance['summary'] = cur_prompt
+        cur_prompt = prompt.replace('{{Document}}', dialogue_text)
+        cur_prompt = cur_prompt.replace('{{Summary}}', sum_text)
         while True:
             try:
                 _response = client.chat.completions.create(
                     model=args.model,
                     messages=[{"role": "system", "content": cur_prompt}],
-                    temperature=0.2,
+                    temperature=0,
                     max_tokens=1,
                     top_p=1,
                     frequency_penalty=0,
                     presence_penalty=0,
                     stop=None,
-                    n=5
+                    n=1
                 )
                 time.sleep(0.5)
                 all_responses = []
@@ -128,6 +129,7 @@ if __name__ == '__main__':
                 new_instance = {
                 'doc_id': doc_id,
                 'summary': sum_text,
+                'dialogue': dialogue_text,
                 'scores': scores,
                 'prompt': cur_prompt,
                 'all_responses': all_responses

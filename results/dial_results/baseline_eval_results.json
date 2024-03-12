@@ -1,0 +1,22 @@
+{
+    "Bloom-1b7-glue-mrpc-IT-baseline": {
+        "coh": 1.0,
+        "con": 1.56,
+        "rel": 1.1066666666666667
+    },
+    "Bloom-1b7-ropes-IT-baseline": {
+        "coh": 1.0,
+        "con": 1.16,
+        "rel": 1.0
+    },
+    "Bloom-1b7-dialogsum-IT-baseline": {
+        "coh": 1.0,
+        "con": 1.0266666666666666,
+        "rel": 1.0
+    },
+    "Bloom-1b7-creative-writing-IT-baseline": {
+        "coh": 1.0,
+        "con": 1.0,
+        "rel": 1.0
+    }
+}

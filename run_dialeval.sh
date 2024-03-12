@@ -10,12 +10,12 @@ API_KEY=$1
 
 # Define arrays of models
 writer_models=(
-    "bigscience/bloom-1b7"
-    "alonzogarbanzo/Bloom-1b7-creative-writing-Cont-IT-Step5"
-    "alonzogarbanzo/Bloom-1b7-dialogsum-Cont-IT-Step4"
-    "alonzogarbanzo/Bloom-1b7-glue-mrpc-Cont-IT-Step3"
-    "alonzogarbanzo/Bloom-1b7-ropes-Cont-IT-Step2"
-    "alonzogarbanzo/Bloom-1b7-creative-writing"
+    #"bigscience/bloom-1b7"
+    #"alonzogarbanzo/Bloom-1b7-creative-writing-Cont-IT-Step5"
+    #"alonzogarbanzo/Bloom-1b7-dialogsum-Cont-IT-Step4"
+    #"alonzogarbanzo/Bloom-1b7-glue-mrpc-Cont-IT-Step3"
+    #"alonzogarbanzo/Bloom-1b7-ropes-Cont-IT-Step2"
+    #"alonzogarbanzo/Bloom-1b7-creative-writing"
     "alonzogarbanzo/Bloom-1b7-glue-mrpc-IT-baseline"
     "alonzogarbanzo/Bloom-1b7-winograd-wsc-IT-baseline"
     "alonzogarbanzo/Bloom-1b7-ropes-IT-baseline"
@@ -25,7 +25,7 @@ writer_models=(
 prompt_fps=(
     "./prompts/dialeval/coh_detailed.txt"
     "./prompts/dialeval/con_detailed.txt"
-    "./prompts/dialeval/flu_detailed.txt"
+    "./prompts/dialeval/rel_detailed.txt"
 )
 
 # Loop through each combination of model and prompt file

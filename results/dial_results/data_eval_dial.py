@@ -12,6 +12,7 @@ def get_file_names(category, model):
 def process_data():
     categories = ["coh", "con", "rel"]
     it_models = [
+        "Bloom-1b7",
         "Bloom-1b7-winograd-wsc-IT-baseline",
         "Bloom-1b7-ropes-Cont-IT-Step2",
         "Bloom-1b7-glue-mrpc-Cont-IT-Step3",
@@ -44,7 +45,6 @@ def process_data():
             average_score = total_score / count if count > 0 else 0
             results.setdefault(model, {})[category] = average_score
 
-    # You can split the results into baseline and IT if needed here
     baseline_results = {model: results[model] for model in baseline_models}
     it_results = {model: results[model] for model in it_models}
 
@@ -132,7 +132,7 @@ def plot_model_comparison(baseline_data, it_data):
 
     for model_name in model_names:
         plt.figure(figsize=(18, 10))
-        index = np.arange(len(categories) + 1)  # +1 for the overall
+        index = np.arange(len(categories) + 1)
         bar_width = 0.35
 
         baseline_scores = []
@@ -144,7 +144,6 @@ def plot_model_comparison(baseline_data, it_data):
             baseline_scores.append(baseline_score)
             it_scores.append(it_score)
 
-        # Calculate overall average scores
         baseline_overall = np.mean(baseline_scores)
         it_overall = np.mean(it_scores)
         baseline_scores.append(baseline_overall)
@@ -177,7 +176,6 @@ if __name__ == '__main__':
     print("Saving data...")
     save_data(baseline_data, it_data)
 
-    # Now you should pass the correct dataset to each plotting function
     print("Generating and saving plots for Baseline...")
     plot_category_averages(baseline_data)
     plot_overall_average(baseline_data)
@@ -185,7 +183,6 @@ if __name__ == '__main__':
     print("Generating and saving plots for IT...")
     plot_category_averages(it_data)
     plot_overall_average(it_data)
-    plot_scores_by_model(it_data)  # Assuming you want this for IT models
+    plot_scores_by_model(it_data)
 
-    # If you want a comparison plot, you should pass both datasets to the function
     plot_model_comparison(baseline_data, it_data)
