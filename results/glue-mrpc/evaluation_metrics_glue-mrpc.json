@@ -1,50 +1,50 @@
 {
-    "bigscience/bloomz-1b7": {
-        "f1": 0.7927927927927928,
-        "accuracy": 0.6933333333333334,
-        "precision": 0.7096774193548387,
-        "recall": 0.8979591836734694
-    },
-    "bigscience/bloom-1b7": {
-        "f1": 0.7903225806451613,
-        "accuracy": 0.6533333333333333,
-        "precision": 0.6533333333333333,
-        "recall": 1.0
-    },
-    "alonzogarbanzo/Bloom-1b7-winograd-wsc-IT-baseline": {
-        "f1": 0.0,
-        "accuracy": 0.3466666666666667,
-        "precision": 0.0,
-        "recall": 0.0
-    },
-    "alonzogarbanzo/Bloom-1b7-glue-mrpc-IT-baseline": {
-        "f1": 0.7254901960784315,
-        "accuracy": 0.6266666666666667,
-        "precision": 0.6981132075471698,
-        "recall": 0.7551020408163265
-    },
-    "alonzogarbanzo/Bloom-1b7-ropes-Cont-IT-Step2": {
-        "f1": 0.0,
-        "accuracy": 0.3466666666666667,
-        "precision": 0.0,
-        "recall": 0.0
-    },
-    "alonzogarbanzo/Bloom-1b7-glue-mrpc-Cont-IT-Step3": {
-        "f1": 0.4225352112676057,
-        "accuracy": 0.4533333333333333,
-        "precision": 0.6818181818181818,
-        "recall": 0.30612244897959184
-    },
-    "alonzogarbanzo/Bloom-1b7-dialogsum-Cont-IT-Step4": {
-        "f1": 0.6976744186046512,
-        "accuracy": 0.6533333333333333,
-        "precision": 0.8108108108108109,
-        "recall": 0.6122448979591837
-    },
-    "alonzogarbanzo/Bloom-1b7-creative-writing-Cont-IT-Step5": {
-        "f1": 0.24137931034482757,
-        "accuracy": 0.41333333333333333,
-        "precision": 0.7777777777777778,
-        "recall": 0.14285714285714285
-    }
+  "bloomz-1b7": {
+    "f1": 0.7927927927927928,
+    "accuracy": 0.6933333333333334,
+    "precision": 0.7096774193548387,
+    "recall": 0.8979591836734694
+  },
+  "bloom-1b7": {
+    "f1": 0.7903225806451613,
+    "accuracy": 0.6533333333333333,
+    "precision": 0.6533333333333333,
+    "recall": 1.0
+  },
+  "Bloom-1b7-winograd-wsc-IT-baseline": {
+    "f1": 0.0,
+    "accuracy": 0.3466666666666667,
+    "precision": 0.0,
+    "recall": 0.0
+  },
+  "Bloom-1b7-glue-mrpc-IT-baseline": {
+    "f1": 0.7254901960784315,
+    "accuracy": 0.6266666666666667,
+    "precision": 0.6981132075471698,
+    "recall": 0.7551020408163265
+  },
+  "Bloom-1b7-ropes-Cont-IT-Step2": {
+    "f1": 0.0,
+    "accuracy": 0.3466666666666667,
+    "precision": 0.0,
+    "recall": 0.0
+  },
+  "Bloom-1b7-glue-mrpc-Cont-IT-Step3": {
+    "f1": 0.4225352112676057,
+    "accuracy": 0.4533333333333333,
+    "precision": 0.6818181818181818,
+    "recall": 0.30612244897959184
+  },
+  "Bloom-1b7-dialogsum-Cont-IT-Step4": {
+    "f1": 0.6976744186046512,
+    "accuracy": 0.6533333333333333,
+    "precision": 0.8108108108108109,
+    "recall": 0.6122448979591837
+  },
+  "Bloom-1b7-creative-writing-Cont-IT-Step5": {
+    "f1": 0.24137931034482757,
+    "accuracy": 0.41333333333333333,
+    "precision": 0.7777777777777778,
+    "recall": 0.14285714285714285
+  }
 }

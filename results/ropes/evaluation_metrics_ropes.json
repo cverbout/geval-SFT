@@ -1,50 +1,50 @@
 {
-    "bigscience/bloomz-1b7": {
-        "f1": 0.4274809160305344,
-        "accuracy": 0.7466666666666667,
-        "precision": 0.5,
-        "recall": 0.37333333333333335
-    },
-    "bigscience/bloom-1b7": {
-        "f1": 0.27884615384615385,
-        "accuracy": 0.38666666666666666,
-        "precision": 0.5,
-        "recall": 0.19333333333333333
-    },
-    "alonzogarbanzo/Bloom-1b7-ropes-IT-baseline": {
-        "f1": 0.3697478991596639,
-        "accuracy": 0.5866666666666667,
-        "precision": 0.5,
-        "recall": 0.29333333333333333
-    },
-    "alonzogarbanzo/Bloom-1b7-winograd-wsc-IT-baseline": {
-        "f1": 0.0625,
-        "accuracy": 0.06666666666666667,
-        "precision": 0.5,
-        "recall": 0.03333333333333333
-    },
-    "alonzogarbanzo/Bloom-1b7-ropes-Cont-IT-Step2": {
-        "f1": 0.364406779661017,
-        "accuracy": 0.5733333333333334,
-        "precision": 0.5,
-        "recall": 0.2866666666666667
-    },
-    "alonzogarbanzo/Bloom-1b7-glue-mrpc-Cont-IT-Step3": {
-        "f1": 0.025974025974025976,
-        "accuracy": 0.02666666666666667,
-        "precision": 0.5,
-        "recall": 0.013333333333333334
-    },
-    "alonzogarbanzo/Bloom-1b7-dialogsum-Cont-IT-Step4": {
-        "f1": 0.2718446601941748,
-        "accuracy": 0.37333333333333335,
-        "precision": 0.5,
-        "recall": 0.18666666666666668
-    },
-    "alonzogarbanzo/Bloom-1b7-creative-writing-Cont-IT-Step5": {
-        "f1": 0.2346938775510204,
-        "accuracy": 0.30666666666666664,
-        "precision": 0.5,
-        "recall": 0.15333333333333332
-    }
+  "bloomz-1b7": {
+    "f1": 0.4274809160305344,
+    "accuracy": 0.7466666666666667,
+    "precision": 0.5,
+    "recall": 0.37333333333333335
+  },
+  "bloom-1b7": {
+    "f1": 0.27884615384615385,
+    "accuracy": 0.38666666666666666,
+    "precision": 0.5,
+    "recall": 0.19333333333333333
+  },
+  "Bloom-1b7-ropes-IT-baseline": {
+    "f1": 0.3697478991596639,
+    "accuracy": 0.5866666666666667,
+    "precision": 0.5,
+    "recall": 0.29333333333333333
+  },
+  "Bloom-1b7-winograd-wsc-IT-baseline": {
+    "f1": 0.0625,
+    "accuracy": 0.06666666666666667,
+    "precision": 0.5,
+    "recall": 0.03333333333333333
+  },
+  "Bloom-1b7-ropes-Cont-IT-Step2": {
+    "f1": 0.364406779661017,
+    "accuracy": 0.5733333333333334,
+    "precision": 0.5,
+    "recall": 0.2866666666666667
+  },
+  "Bloom-1b7-glue-mrpc-Cont-IT-Step3": {
+    "f1": 0.025974025974025976,
+    "accuracy": 0.02666666666666667,
+    "precision": 0.5,
+    "recall": 0.013333333333333334
+  },
+  "Bloom-1b7-dialogsum-Cont-IT-Step4": {
+    "f1": 0.2718446601941748,
+    "accuracy": 0.37333333333333335,
+    "precision": 0.5,
+    "recall": 0.18666666666666668
+  },
+  "Bloom-1b7-creative-writing-Cont-IT-Step5": {
+    "f1": 0.2346938775510204,
+    "accuracy": 0.30666666666666664,
+    "precision": 0.5,
+    "recall": 0.15333333333333332
+  }
 }
